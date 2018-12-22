@@ -55,10 +55,12 @@ const runTheTrap = async () => {
             "'unsafe-eval'",
             "'unsafe-inline'",
             "https://www.google-analytics.com",
-            "https://cdn.polyfill.io"],
+            "https://cdn.polyfill.io",
+            "https://cdnjs.cloudflare.com"],
           styleSrc: [
             "'self'",
-            "'unsafe-inline'"],
+            "'unsafe-inline'",
+            "https://cdnjs.cloudflare.com"],
           imgSrc: [
             "'self'",
             "https://www.google-analytics.com/collect",
