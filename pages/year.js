@@ -6,7 +6,7 @@ import {
   PageTitle,
   LeadParagraph,
   LinkText,
-  Paragraph,
+  Paragraph
 } from '../components/typography';
 import siteConfig from '../config';
 
@@ -42,8 +42,8 @@ const YearPage = props => {
   );
 };
 
-YearPage.getInitialProps = context => ({
-  year: Number(context.query.year),
+YearPage.getInitialProps = async context => ({
+  year: Number(context.query.year)
 });
 
 export default YearPage;
